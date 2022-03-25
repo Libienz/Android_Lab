@@ -1,7 +1,6 @@
 package basic_syntax
 
-class Kotlin_1 {
-}
+
 // 주석 문법 자바와 동일
 fun main() {
     println("Hello World")
