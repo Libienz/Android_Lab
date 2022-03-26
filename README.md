@@ -2,13 +2,11 @@
 코틀린 학습을 위한 레퍼지토리입니다.
 
 
-
+basic_syntax package : 기본 문법에 대한 내용을 담은 package
+  
+OOP_kot : 코틀린의 객체지향적 부분과 람다 고차함수 제너릭등의 기능을 다뤄보는 패키지 
 
 3/25 학습내용 : 
-
-  basic_syntax package : 기본 문법에 대한 내용을 담은 package
-  
-  OOP_kot : 코틀린의 객체지향적 부분과 람다 고차함수 제너릭등의 기능을 다뤄보는 패키지 
   
     basic_syntax.Kotlin_1 : 주석, 들여쓰기, 변경가능한 변수 var 변경 불가능 변수 val
       
