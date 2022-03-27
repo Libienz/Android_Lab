@@ -4,7 +4,9 @@
 
 basic_syntax package : 기본 문법에 대한 내용을 담은 package
   
-OOP_kot : 코틀린의 객체지향적 부분과 람다 고차함수 제너릭등의 기능을 다뤄보는 패키지 
+OOP_kot : 코틀린의 객체지향적 부분과 람다 고차함수 제너릭등의 기능을 다뤄보는 패키지
+
+coding_test : 코딩 테스트 문제 코틀린으로 풀어보기
 
 3/25 학습내용 : 
   
@@ -75,4 +77,23 @@ OOP_kot : 코틀린의 객체지향적 부분과 람다 고차함수 제너릭�
     
     OOP_kot.Kotlin_27 : 제너릭 .. 어떤 타입이 들어와도 유하게 반응하고 싶을 때 사용 타입 캐스팅 일일이 할 필요 없고 컴파일 편하다
     
+3/27 학습내용 :
     
+    OOP_kot.Kotlin_28 : 싱글톤 패턴을 가능하게 하는 (인스턴스가 하나뿐인) object, 클래스 내부의 object을 위한 companion object
+    
+      companion object는 스태틱과 비슷하게 사용할 수 있지만 객체임을 주의하자 
+     
+    OOP_kot.Kotlin_29 : 선언만 하고 초기화를 나중에 하는 lateinit, lazyString 
+    
+      ??????????????????그냥 변수도 가능한 기능 아님? lazyString은 뭐야 
+      
+    OOP_kot.Kotlin_30 : infix function 
+    
+      ?????????????????????????????????????????
+    
+    OOP_kot.Kotlint_31 : let with run apply also
+      ????????
+      
+    OOP_kot.Kotlint_32 : 나열해서 사용하는 열거형 enum 클래스 실습
+    
+    coding_test.
