@@ -36,12 +36,14 @@ fun solution(emailList: ArrayList<String>) : Map<String, Int> {
             res.put(dom,1)
         }
         else {
-
-
+            for (i in res) {
+                if (i.key == dom) {
+                    i.setValue(i.value + 1)
+                }
+            }
         }
-        return res
-
-
     }
+    return res
+
 
 }

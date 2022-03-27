@@ -1,6 +1,6 @@
 // 문자열의 숫자와 짝수(true)와 홀수(false)를 알려주는 solution을 만드세요
 
-fun main(){
+fun main() {
 
     val result1 = solution("abcd")
     println(result1)
@@ -13,7 +13,13 @@ fun main(){
 
 
 fun solution(str : String) : ArrayList<String> {
-
-
+    var arr = ArrayList<String>()
+    arr.add(str.length.toString())
+    if (str.length % 2 == 0) {
+        arr.add(true.toString())
+    } else {
+        arr.add(false.toString())
+    }
+    return arr
 
 }
