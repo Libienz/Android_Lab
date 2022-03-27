@@ -28,5 +28,5 @@ fun findStringLength3(str : String?) : Int {
 }
 
 fun findStringLength4(str:String?) :Int {
-    return str?.length ?:0 //null이면 0리턴해라
+    return str?.length ?: 0 //null이면 0리턴해라
 }

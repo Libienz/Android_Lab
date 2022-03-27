@@ -12,6 +12,8 @@ interface CarAutoDrive {
 interface CarAutoPark {
     fun AutoPark()
 }
+
+
 class BMW() : Car1, CarAutoDrive, CarAutoPark { //이게이게 인터페이스의 이유다!!
     override fun wheel() {
         println("bmw wheel 돌아감")

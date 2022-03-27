@@ -20,7 +20,7 @@ class Test1 {
 }
 
 class Test15 {
-
+    val b = 5
     inner class Test15InnerClass {
         fun testFun2() {
             println("TestFun2")

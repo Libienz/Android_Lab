@@ -20,4 +20,5 @@ fun main() {
     val box3 = Box3<String>("asdf") //어떤 타입이 들어와도 유하게 반응 하고 싶을때
     //제너릭을 사용하즈아!!
     println(box3.value)
+
 }

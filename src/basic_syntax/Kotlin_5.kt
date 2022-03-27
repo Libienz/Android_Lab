@@ -21,7 +21,8 @@ fun main() {
 
     val testList4 = listOf("student1","student2","student3","student4","teacher1","teacher2")
     println(testList4)
-    println(testList4.filter { it.startsWith("s") }) //filtering
+    println(testList4.filter {it.startsWith("s") }) //filtering
+
 
     val testList5 = listOf("student1","student2","student3","student4",null)
     println(testList5.filterNotNull().filter { it.startsWith("s") })

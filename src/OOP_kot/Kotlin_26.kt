@@ -5,6 +5,7 @@ package OOP_kot
 
 fun main() {
 
+
     println(sumLambda(1,2))
 
 
