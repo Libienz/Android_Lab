@@ -26,7 +26,9 @@ fun solution(str: String) : String {
 
     }
 
-    var least = Collections.min(resMap.values)
-    return least.toString()
 
+
+
+    var least = resMap.filter { it.value == Collections.min(resMap.values) }
+    return least.keys.toString()
 }
