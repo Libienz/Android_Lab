@@ -16,11 +16,21 @@ fun main(){
 
 
 fun solution( str : String ): Map<String, Int> {
+    var resMap = mutableMapOf<String, Int>()
+    for (i in str) {
+        if (!resMap.containsKey(i.toString())) {
+            resMap.put(i.toString(),1)
+        }
+        else {
+            resMap[i.toString()] = resMap[i.toString()]!! + 1
+        }
+    }
+
+    return resMap.toList().sortedBy {it.second}.reversed().toMap()
 
 
 
 }
-
 
 
 

@@ -17,6 +17,12 @@ fun main(){
 
 fun solution(arr: ArrayList<Int>) :ArrayList <String> {
 
+    var res : ArrayList<String> = ArrayList<String>()
 
+    for (i in (arr.size)-1 downTo (0)) {
+        res.add(arr[i].toString())
+    }
+
+    return res
 
 }

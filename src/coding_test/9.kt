@@ -22,6 +22,21 @@ fun main(){
 
 
 fun solution(list: ArrayList<Int>) : Int{
-
-
+    val minimumIndex = minIndex(list)
+    list.removeAt(minimumIndex)
+    return list.sum()
 }
+
+fun minIndex(list: ArrayList<Int>) : Int {
+    var min = 0
+    for ( i in 1..(list.size - 1)) {
+        if (list[min] > list[i]) {
+            min = i
+        }
+        else {
+            continue
+        }
+    }
+    return min
+}
+

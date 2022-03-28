@@ -18,6 +18,13 @@ fun main(){
 
 
 fun solution(arr: ArrayList<String>): Double {
+    var sum : Double = 0.0
+    for (i in arr) {
+        sum = sum + i.toDouble()
+    }
+    return sum / (arr.size.toDouble())
 
 
 }
+
+

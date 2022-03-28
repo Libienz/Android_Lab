@@ -21,11 +21,13 @@ fun main(){
 
 
 fun solution( number : Int ) : Int {
-
-
+    var res : Int = 1
+    for (i in number downTo(1)) {
+        res =  res*i
+    }
+    return res
 
 }
-
 
 
 
