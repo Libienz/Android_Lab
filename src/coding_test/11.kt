@@ -1,3 +1,6 @@
+import java.util.*
+import kotlin.collections.ArrayList
+
 // 여러개의 동전 중
 // 가장 동전의 수를 적게 받을 수 있는 solution 을 만드세요
 
@@ -22,7 +25,15 @@ fun main(){
 }
 
 
-fun solution(coins: ArrayList<Int>, money: Int) : Int{
+fun solution(coins: ArrayList<Int>,money: Int) : Int{
 
+    var count = 0
+    var restMoney = money
+    for (coin in coins) {
+        count = count + (restMoney / coin)
+        restMoney = money % coin
+    }
+
+    return count
 
 }
