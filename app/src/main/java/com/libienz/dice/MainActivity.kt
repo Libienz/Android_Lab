@@ -2,6 +2,7 @@ package com.libienz.dice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
@@ -20,6 +21,12 @@ class MainActivity : AppCompatActivity() {
             val range = (1..6)
             val right_num = range.random()
             val left_num = range.random()
+
+
+            //로그를 생활화 합시다.
+            Log.d("diceRoll",right_num.toString())
+            Log.d("diceRoll",left_num.toString())
+
 
             if (right_num == 1) {
                 binding.rightDice.setImageResource(R.drawable.dice_1)
