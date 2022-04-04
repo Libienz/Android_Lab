@@ -8,11 +8,23 @@
     tools:context=".Singer2Fragment">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="영웅노래 리스트"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Singer2Rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="2"
-        android:textSize="60sp"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="80dp"/>
+
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout

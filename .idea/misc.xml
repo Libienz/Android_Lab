@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/code/trot_list/app/src/main/res/layout/activity_main.xml" value="0.23489583333333333" />
-        <entry key="..\:/code/trot_list/app/src/main/res/layout/fragment_singer1.xml" value="0.2" />
+        <entry key="..\:/code/trot_list/app/src/main/res/layout/fragment_singer1.xml" value="0.536" />
         <entry key="..\:/code/trot_list/app/src/main/res/layout/fragment_singer2.xml" value="0.24947916666666667" />
         <entry key="..\:/code/trot_list/app/src/main/res/layout/fragment_singer3.xml" value="0.11200000000000002" />
+        <entry key="..\:/code/trot_list/app/src/main/res/layout/rv_item.xml" value="0.1" />
       </map>
     </option>
   </component>
