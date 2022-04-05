@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "85300564993",
+    "project_id": "diet-memo-effa3",
+    "storage_bucket": "diet-memo-effa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85300564993:android:588f04489195b29029dc00",
+        "android_client_info": {
+          "package_name": "com.libienz.diet_memo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85300564993-mkqr9vcu6qot319gtrclignfvujoofol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsMtL7rJLUz4-5Bn_EX1m2FIJpV4H17v4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85300564993-mkqr9vcu6qot319gtrclignfvujoofol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
