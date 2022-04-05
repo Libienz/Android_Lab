@@ -7,7 +7,7 @@ SplashActivity
      
 try catch 
     이용해서 current user를 찍어보고 null point Exception 발생하면 비회원 uid 생성 
-    기존아이디가 있다면 그냥 메인액티비티로 이동 
+    기존아이디가 있다면 그냥 메인액티비티로 이동
 
 
     
