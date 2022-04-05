@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="운동 메모를 입력해주세요"/>
+
+    <Button
+        android:id="@+id/date_select_btn"
+        android:text="날짜를 선택해 주세요"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+
+</LinearLayout>
