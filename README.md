@@ -9,5 +9,9 @@ try catch
     이용해서 current user를 찍어보고 null point Exception 발생하면 비회원 uid 생성 
     기존아이디가 있다면 그냥 메인액티비티로 이동
 
-
+fireBase
+     비회원 로그인
+     데이터베이스 쓰기 
+     데이터베이스 읽기
+     동기 비동기와 변수 위치에 따른 오류들 많음 (해결안됨)
     
