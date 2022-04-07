@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Code/dietmemo/app/src/main/res/layout/activity_main.xml" value="0.18645833333333334" />
+        <entry key="..\:/Code/dietmemo/app/src/main/res/layout/activity_splash.xml" value="0.18645833333333334" />
+        <entry key="..\:/Code/dietmemo/app/src/main/res/layout/custom_dialog.xml" value="0.18645833333333334" />
         <entry key="..\:/code/diet_memo/app/src/main/res/layout/activity_main.xml" value="0.109375" />
         <entry key="..\:/code/diet_memo/app/src/main/res/layout/custom_dialog.xml" value="0.2" />
         <entry key="..\:/code/diet_memo/app/src/main/res/layout/listview_item.xml" value="0.24947916666666667" />
