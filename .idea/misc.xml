@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/code/mango_contents/app/src/main/res/layout/activity_main.xml" value="0.1109375" />
+        <entry key="..\:/code/mango_contents/app/src/main/res/drawable/radius.xml" value="0.1" />
+        <entry key="..\:/code/mango_contents/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/code/mango_contents/app/src/main/res/layout/activity_splash_activitiy.xml" value="0.264" />
+        <entry key="..\:/code/mango_contents/app/src/main/res/layout/rv_item.xml" value="0.264" />
       </map>
     </option>
   </component>
