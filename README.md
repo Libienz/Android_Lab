@@ -15,7 +15,8 @@ Glide
     Gradle 수정 필요 Sync 구글링 해서 찾아보기
 
 Splash Activity
-
+    
+    manifest파일 수정
     Handler 이용한 Splash Activity 
     만드는 방법 손에 익혀야 
   
