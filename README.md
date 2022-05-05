@@ -3,6 +3,8 @@
 
 
 FireBase Auth
+    
+    프로젝트 시작해서 json 파일 끌어오고 안슈에서 tool -> firebase로 gradle 자동 설정
   
 WebView
   
