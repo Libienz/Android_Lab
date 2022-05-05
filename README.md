@@ -13,6 +13,10 @@ WebView
   
 FireBase RealTime Data
 
+    북마크 데이터베이스에 uid기반으로 저장 
+    북마크 읽어오기 
+    
+
 Glide
   
     imageSrc 가져와서 어플리케이션 내에 로드 할 수 있음 
