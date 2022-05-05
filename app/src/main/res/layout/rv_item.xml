@@ -2,11 +2,15 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_margin="20dp"
     android:layout_height="150dp"
     android:orientation="vertical"
     android:background="@drawable/radius">
 
     <ImageView
+        android:scaleType="fitXY"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:id="@+id/rvImageArea"
         android:src="@drawable/ic_launcher_background"
         android:layout_width="match_parent"
@@ -18,6 +22,8 @@
     <TextView
         android:id="@+id/rvTextArea"
         android:text="hi"
+        android:textStyle="bold"
+        android:textSize="20sp"
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_gravity="center"
