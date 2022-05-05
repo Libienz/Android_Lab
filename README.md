@@ -6,6 +6,8 @@ FireBase Auth
   
 WebView
   
+    xml에서 WebView 태그 생성 
+    loadUrl manifest에서 userPermission 인터넷 설정 필요
   
 FireBase RealTime Data
 
@@ -21,7 +23,8 @@ Splash Activity
     만드는 방법 손에 익혀야 
   
 RecyclerView
-
+    
     main xml 파일에 리사이클러 뷰 만들기
     rv_item.xml 만들기 <-- 얘가 리사이클러 뷰에 한 칸씩 꽃힌다.
     RVAdapter만들기 얘가 데이터 바인딩 시킴 데이터 클래스로 넘겨주자
+    리사이클러 onclick 하는 법 -> RVAdapter에 인터페이스 만들고 viewBindHolder에서 리슨
