@@ -87,6 +87,9 @@ class MainActivity : AppCompatActivity() {
             override fun onClick(view: View, position: Int) {
                 val intent = Intent(baseContext,ViewActivity::class.java)
                 intent.putExtra("url",items[position].url)
+                intent.putExtra("imgurl",items[position].ImageUrl)
+                intent.putExtra("title",items[position].titleText)
+
                 startActivity(intent)
             }
         }

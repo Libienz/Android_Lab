@@ -6,7 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".ViewActivity">
 
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="저장"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
     <WebView
+        android:layout_marginTop="50dp"
         android:id="@+id/webView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
